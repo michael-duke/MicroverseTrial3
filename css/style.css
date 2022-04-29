@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+#git-initial-push{
+ text-align: center;
+ font-size: x-large;
+ font-style: oblique;
+ background: white;
+ border-radius: 20px;
+ }
+
+ul {
+    list-style: none;
+  }
+  
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(57deg, #699ed4 0%, #c6c3ca 100%);
+    z-index: 10;
+}
+  
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    
+}
+
+.nav-list a {
+    display: block;
+    font-size: 40px;
+    padding: 20px;
+}
+  
+.nav-list a:hover {
+    background: darkgray;
+    border-radius: 40%;
+    color: black;
+}
+
+h1 {
+    font-size: 60px;
+}
+ h2 {
+    font-size: 42px;
+}
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(57deg, #3a3d40 0%, #181719 100%);
+}
+  
+  .welcome-section > p {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color: linear-gradient(57deg, #c99b39 0%, #6c6970 100%);
+}
+.welcome-section > h1{
+    border-radius: 10%;
+    border-bottom: groove;
+    margin: 10px;
+    color: aliceblue;
+}
+
+.projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: linear-gradient(57deg, whitesmoke 0%, #334635 100%);
+}
+  
+  .projects-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-white);
+}
+#projects-list{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+    border-radius: 33px;
+  }
+ #prj1 > a > img{
+     width: 250px;
+     height: 300px;
+     border-radius: 10%;
+ } 
+ #prj2 > a > img{
+    width: 400px;
+    height: 280px;
+    border-radius: 10%;
+    margin-right: 50px;
+} 
+#prj3 > a > img{
+    width: 330px;
+    height: 300px;
+    border-radius: 10%;
+} 
+.project > .level {
+background-color: whitesmoke;
+color: black;
+padding: 15px 0;
+width: 100%;
+text-transform: uppercase;
+font-weight: 700;
+}
+  
+.project > h2 {
+margin-top: 15px;
+}
+
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: linear-gradient(57deg, #3b5976 0%, #c6c3ca 100%);
+}
+  
+  .contact-section-header > h2 {
+    font-size: 6rem;
+}
+    
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    max-width: 980px;
+    margin-top: 24px;
+ }
+.contact-details {
+    font-size: 24px;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+}
+  
+.contact-details:hover {
+    transform: translateY(10px);
+}
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background: darkgray;
+    border-top: 4px solid blanchedalmond;
+}
